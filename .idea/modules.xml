@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-nears.iml" filepath="$PROJECT_DIR$/.idea/react-nears.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/digital-warehouse.iml" filepath="$PROJECT_DIR$/.idea/digital-warehouse.iml" />
     </modules>
   </component>
 </project>
