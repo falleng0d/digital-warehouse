@@ -10,7 +10,8 @@
     "@types/node": "^16.11.38",
     "@types/react": "^18.0.11",
     "@types/react-dom": "^18.0.5",
-    "prettier": "^2.6.2",
+    "modern-normalize": "^1.1.0",
+    "polished": "^4.2.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
@@ -29,13 +30,17 @@
     "workbox-range-requests": "^6.5.3",
     "workbox-routing": "^6.5.3",
     "workbox-strategies": "^6.5.3",
-    "workbox-streams": "^6.5.3"
+    "workbox-streams": "^6.5.3",
+    "zod": "^3.17.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +61,8 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7"
+    "@types/styled-components": "^5.1.25",
+    "babel-plugin-styled-components": "^2.0.7",
+    "prettier": "^2.6.2"
   }
 }
