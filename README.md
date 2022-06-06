@@ -1,6 +1,6 @@
 # Getting Started with Digital Warehouse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screenshot](https://imgur.com/EpI0GGd.png)
 
 ## Available Scripts
 
